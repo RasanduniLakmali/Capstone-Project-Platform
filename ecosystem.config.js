@@ -1,7 +1,7 @@
 module.exports = {
   apps : [
       {
-         name   : "app1",
+         name   : "config-server",
          script : "java -jar ./config-server/target/Config-Server-1.0.0.jar",
          log_file: "./logs/config-server.log"
       },
